@@ -1,15 +1,50 @@
-body { width: 95vw; height: 100%; margin: 0; background-color: inherit;
-
+body {
+  width: 95vw; height: 100%; margin: 0; background-color: inherit;
   font-family: lato,sans-serif;
   font-weight: 400;
   line-height: 1.5;
 }
-a{
-  text-decoration: none;
-}
+
 main {margin: 0 2vw 0 2vw;
    width: 98vw;
-   background: white;}
+   background: white;
+   font-size: 125%;}
+
+.ikony {
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.ikony a {
+ display: block;
+ text-align: center;
+ padding: 20px;
+ transition: all 0.2s ease;
+ color: white;
+ font-size: 20px;
+
+border-style: outset;
+ border-color: white;
+}
+
+.ikony a:hover {
+ background-color: #000;
+ border-top-right-radius:10px;
+}
+
+.facebook {
+ background: black;
+ color: white;
+}
+
+.instagram {
+ background: black;
+ color: white;
+}
 
 /* interview page styles */
 .ivIcon {width: 300px; height: 500px; overflow: hidden; text-align: center;
@@ -25,78 +60,47 @@ main {margin: 0 2vw 0 2vw;
 .ivIcon .readMore {text-align: center; float: center; position: absolute;
   bottom: 1%; right: 1%; color: white; margin-top: 10px;}
 
-/* display: inline-block*/
-.sidebar { display: none; float: right; width: 300px; height: 50vh;
-border: 2px solid black; }
 
-#tempHeader
-  { width: 100%;
-     position: fixed;
-     height: 8vh;
+/* Navbar */
+.nav{
 
-     top: 0;
-    z-index: 1;
+ overflow: hidden;
+ background:#28a0a8;
+ font-family: lato,sans-serif;
+font-weight: 400;
+font-style: normal;
 
-   background: linear-gradient(-45deg, #07b5a6, #e73c7e, #23a6d5, #23d5ab);
-   background-size: 400% 400%;
-   animation: gradient 15s ease infinite;
-   font-family: lato,sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
-#tempHeader a {
+.nav a {
   display: block;
   float: right;
   text-align: center;
   padding: 16px;
   text-decoration: none;
-color: black;
+
   border-radius: 50px;
   margin-right:10px;
   margin-left:10px;
 }
-#tempHeader a.active{
+.nav a.active{
 
   color: white;
 }
-#tempHeader a:hover{
+.nav a:hover{
 
   color: white;
 
 }
-#headerSpace { height: 8vh; width: 100%; }
-.ikony a {
-  display: block;
-  text-align: center;
-  padding: 20px;
-  transition: all 0.2s ease;
-  color: white;
-  font-size: 20px;
 
-border-style: outset;
-  border-color: white;
+main a {color: blue}
+
+h1 {text-decoration: underline;}
+
+/*for mobile*/
+@media screen and (max-width: 1000px) {
+  main {width:95%; text-align: justify; margin: auto;}
 }
-
-
-.ikony a:hover {
-  background-color: #000;
-  border-top-right-radius:10px;
-}
-
-.facebook {
-  background: black;
-  color: white;
-}
-
-.instagram {
-  background: black;
-  color: white;
-}
-
-.ikony {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+/*for desktop*/
+@media screen and (min-width: 1000px) {
+  main {width:60%; text-align: justify; margin: auto;}
 }
