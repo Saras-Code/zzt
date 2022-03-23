@@ -27,8 +27,8 @@
         flex-direction: column;
         padding: 40px;
         border-top: solid white;
-   
-    
+
+
     }
     .blog-heading{
         display: flex;
@@ -57,12 +57,12 @@
         background-color:white;
         margin: 20px;
         border-radius: 20px;
-    
+
     }
     .images{
         width: 100%;
         height: auto;
-        
+
     }
     .images img{
         width: 100%;
@@ -89,9 +89,9 @@
     .blog-detail .blog-title:hover {
         color:brown;
         transition: all ease 0.3s;
-     
+
     }
-    .blog-detail p{
+    .blog-detail p {
         color:black;
         font-size: 0.9rem;
         display: -webkit-box;
@@ -100,15 +100,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
         margin: 20px 0px;
-    
+
     }
     .blog-detail a{
-        color: #0f0f00 
+        color: #0f0f00
     }
     .blog-detail a:hover{
         color:#28a0a8;
         transition: all ease 0.3s;
-    
+
     }
 /*------website-------*/
     #mainHeader{
@@ -120,11 +120,11 @@
     }
     #header{
       color: black;
-    
+
     }
     #subHeader{
       color: #edeae8;
-    
+
       font-size: 20px;
     }
     .ikony {
@@ -134,7 +134,7 @@
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
     }
-    
+
     /* Style the icon bar links */
     .ikony a {
       display: block;
@@ -143,37 +143,36 @@
       transition: all 0.2s ease;
       color: white;
       font-size: 20px;
-    
+
     border-style: outset;
       border-color: white;
     }
-    
+
     /* Style the social media icons with color, if you want */
     .ikony a:hover {
       background-color: #000;
       border-top-right-radius:10px;
     }
-    
+
     .facebook {
       background: black;
       color: white;
     }
-    
+
     .instagram {
       background: black;
       color: white;
     }
-    
-    
-    
+
+
+
     .nav{
-    
      overflow: hidden;
      background:#28a0a8;
-     font-family: lato,sans-serif;
+     font-family: lato, sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+    font-size: 20px;
     }
     .nav a {
       display: block;
@@ -181,36 +180,38 @@
       text-align: center;
       padding: 16px;
       text-decoration: none;
-    
+
       border-radius: 50px;
       margin-right:10px;
       margin-left:10px;
+      color: black;
     }
+
     .nav a.active{
-    
+
       color: white;
     }
     .nav a:hover{
-    
+
       color: white;
-    
+
     }
     ul{
       list-style: none;
     }
     .container{
       height:100%;
-    
+
       display: flex;
       align-items: center;
       flex-direction: column;
-    
+
       justify-content: center;
-    
-    
+
+
         height: 100vh;
     }
-    
+
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
@@ -222,18 +223,18 @@
             background-position: 0% 50%;
         }
     }
-    
+
     }
-  
+
     .about-container{
-    
+
         display:flex;
         justify-content: center;
         align-items: center;
         margin: 20px 0px;
         flex-wrap: wrap;
 
-    
+
     }
     .about-box{
         text-align: center;
@@ -241,9 +242,31 @@
         margin: 10px;
         color: white;
     }
-    
 
- 
-
+    /*for mobile*/
+    @media screen and (max-width: 1000px) {
+      #info {width:90%; margin: auto; text-align: justify;}
     }
-    
+    /*for desktop*/
+    @media screen and (min-width: 1000px) {
+      #info {width: 900px; text-align: justify; margin: auto;}
+    }
+
+/* under construction website */
+h1 #ucTitle{
+  text-align: center;
+  vertical-align: middle;
+  font-family: lato,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+
+}
+h3 #ucSubH{
+  text-align: center;
+  font-family: lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
