@@ -117,6 +117,7 @@
     font-weight: 700;
     font-style: normal;
       font-size: 60px;
+      text-align: center;
     }
     #header{
       color: black;
@@ -243,6 +244,8 @@
         color: white;
     }
 
+    .error-page a {color: white; text-decoration: underline;}
+    .error-page {text-align: center;}
     /*for mobile*/
     @media screen and (max-width: 1000px) {
       #info {width:95%; text-align: justify; margin: auto;}
