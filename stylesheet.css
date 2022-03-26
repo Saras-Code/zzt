@@ -100,3 +100,6 @@ border-style: outset;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@media screen and (max-width: 1000px) {
+  .ikony {display: none}
+}

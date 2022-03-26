@@ -249,6 +249,7 @@
     /*for mobile*/
     @media screen and (max-width: 1000px) {
       #info {width:95%; text-align: justify; margin: auto;}
+      .ikony {display: none}
     }
     /*for desktop*/
     @media screen and (min-width: 1000px) {
