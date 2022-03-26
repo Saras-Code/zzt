@@ -8,14 +8,155 @@
     <link rel="stylesheet" href="https://use.typekit.net/bvd5unw.css">
     <link rel="stylesheet" href="style.css">
 <style>
-  h1{
-    color: white;
-  }
-h3{
-    color: white;
-}
-.nav a { color: black
-}
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: lato,sans-serif;
+        font-weight: 400;
+        background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 12s ease infinite;
+        color: white;
+
+    }
+/*------website-------*/
+    #mainHeader{
+      color: white;
+      font-family: lato,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+      font-size: 60px;
+      text-align: center;
+    }
+    #header{
+      color: black;
+
+    }
+    #subHeader{
+      color: #edeae8;
+
+      font-size: 20px;
+    }
+    .ikony {
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    /* Style the icon bar links */
+    .ikony a {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      transition: all 0.2s ease;
+      color: white;
+      font-size: 20px;
+
+    border-style: outset;
+      border-color: white;
+    }
+
+    /* Style the social media icons with color, if you want */
+    .ikony a:hover {
+      background-color: #000;
+      border-top-right-radius:10px;
+    }
+
+    .facebook {
+      background: black;
+      color: white;
+    }
+
+    .instagram {
+      background: black;
+      color: white;
+    }
+
+
+
+    .nav{
+
+     overflow: hidden;
+     background:#28a0a8;
+     font-family: lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    }
+    .nav a {
+      display: block;
+      float: right;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+
+      border-radius: 50px;
+      margin-right:10px;
+      margin-left:10px;
+      color:black;
+
+    }
+    .nav a.active{
+
+      color: white;
+    }
+    .nav a:hover{
+
+      color: white;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    }
+
+    .about-container{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+        flex-wrap: wrap;
+
+
+    }
+    .about-box{
+        text-align: center;
+       border-top: solid;
+        margin: 10px;
+        color: white;
+    }
+
+    .error-page a {color: white; text-decoration: underline;}
+    .error-page {text-align: center;}
+    /*for mobile*/
+    @media screen and (max-width: 1000px) {
+      #info {width:95%; text-align: justify; margin: auto;}
+      .facebook {display: none}
+      .instagram {display: none;}
+    }
+    /*for desktop*/
+    @media screen and (min-width: 1000px) {
+      #info {width:600px; text-align: justify; margin: auto;}
+    }
+
 </style>
   </head>
   <body>
