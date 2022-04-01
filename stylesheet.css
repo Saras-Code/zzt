@@ -1,4 +1,4 @@
-body { width: 95vw; height: 100%; margin: 0; background-color: inherit;
+body { height: 100%; margin: 0; background-color: inherit;
 
   font-family: lato,sans-serif;
   font-weight: 400;
@@ -8,7 +8,7 @@ a{
   text-decoration: none;
 }
 main {margin: 0 2vw 0 2vw;
-   width: 98vw;
+   width: 94vw;
    background: white;}
 
 /* interview page styles */
@@ -38,7 +38,6 @@ border: 2px solid black; }
    font-weight: 400;
    font-style: normal;
    font-size: 20px;
-
    }
    .nav a {
      display: block;
@@ -98,4 +97,7 @@ border-style: outset;
 
 @media screen and (max-width: 1000px) {
   .ikony {display: none}
+}
+@media screen and (max-width: 369px) {
+    .nav a {margin: 0}
 }
