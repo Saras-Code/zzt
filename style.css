@@ -244,12 +244,18 @@
         color: white;
     }
 
+    #ucContainer {margin: auto; text-align: center; width: 90vw;}
+
     .error-page a {color: white; text-decoration: underline;}
     .error-page {text-align: center;}
     /*for mobile*/
     @media screen and (max-width: 1000px) {
       #info {width:95%; text-align: justify; margin: auto;}
       .ikony {display: none}
+    }
+    @media screen and (max-width: 800px) {
+      #ucContainer {font-size: 80%}
+      #ucContainer h3 {font-weight: normal;}
     }
     /*for desktop*/
     @media screen and (min-width: 1000px) {

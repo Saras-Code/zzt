@@ -29,42 +29,37 @@ main {margin: 0 2vw 0 2vw;
 .sidebar { display: none; float: right; width: 300px; height: 50vh;
 border: 2px solid black; }
 
-#tempHeader
-  { width: 100%;
-     position: fixed;
-     height: 8vh;
 
-     top: 0;
-    z-index: 1;
+  .nav{
 
-   background: linear-gradient(-45deg, #07b5a6, #e73c7e, #23a6d5, #23d5ab);
-   background-size: 400% 400%;
-   animation: gradient 15s ease infinite;
-   font-family: lato,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-#tempHeader a {
-  display: block;
-  float: right;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-color: black;
-  border-radius: 50px;
-  margin-right:10px;
-  margin-left:10px;
-}
-#tempHeader a.active{
+    overflow: hidden;
+    background:#28a0a8;
+    font-family: lato,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
 
-  color: white;
-}
-#tempHeader a:hover{
+   }
+   .nav a {
+     display: block;
+     float: right;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
 
-  color: white;
+     border-radius: 50px;
+     margin-right:10px;
+     margin-left:10px;
+   }
+   .nav a.active{
 
-}
-#headerSpace { height: 8vh; width: 100%; }
+     color: white;
+   }
+   .nav a:hover{
+
+     color: white;
+
+   }
 .ikony a {
   display: block;
   text-align: center;
@@ -100,6 +95,7 @@ border-style: outset;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 @media screen and (max-width: 1000px) {
   .ikony {display: none}
 }
