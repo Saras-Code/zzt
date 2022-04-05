@@ -107,3 +107,16 @@ body {
   @media screen and (min-width: 1000px) {
     main {width:60%; text-align: justify; margin: auto;}
   }
+
+  footer { background-color: #28a0a8; color: white; font-size: 115%; position: relative; bottom: -5px; padding-bottom: 5px;}
+  .f-image-cont {height: 100px; }
+  footer a {text-decoration: none; font-weight: bolder; margin-left: 50px; position: relative;top: 35px}
+  footer img {float: left; max-height:100%;}
+  footer p {margin: 5px;}
+
+  @media screen and (min-width: 520px) {
+    footer .fNavBreak {display: none;}
+  }
+  @media screen and (max-width: 520px) {
+    footer a {top: 10px;}
+  }
