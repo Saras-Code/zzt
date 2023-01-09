@@ -3,13 +3,13 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     }
     body{
         margin: 0px;
         padding: 0px;
         font-family: lato,sans-serif;
         font-weight: 400;
-        background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
         animation: gradient 12s ease infinite;
     }
