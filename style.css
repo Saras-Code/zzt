@@ -3,9 +3,9 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     }
     body{
+        background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         margin: 0px;
         padding: 0px;
         font-family: lato,sans-serif;
